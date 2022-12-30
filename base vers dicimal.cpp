@@ -30,7 +30,7 @@ int main()
 	}
 	printf (" le nombre en dicimal est %d \n ", dic );
 	/* on va faire les opperationts pour transoformer le nombre vers la base de sortie */
-    i = 0 ;
+        i = 0 ;
 	nbr_s = 0 ;
 	while ( dic != 0 ){
     	c = dic % bs ;
