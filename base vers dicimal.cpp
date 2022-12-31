@@ -5,15 +5,15 @@ int main()
 {
 	/* declaration des variables :
 	    nbr_o = nombre qui affiche par l'utilisateur
-	    nbr_s = nombre de resulta
+	    nbr_s = nombre de result
 	    bo = la base d'entree 
 	    bs = la base du sortie
 		dic = c'est le nombre en dicimale
-		a et c = c'est des valeur  */
+		a et c = c'est des valeur qui l'aide dans le programme */
 	int bo , bs , dic , a , c ;
 	long nbr_o , nbr_s ; 
-	/* En la deuxieme etap , on va faire l'affctation de la base d'entree et du sortie et le nombre en base d'ontree */
-	printf (" Veulliez donner la base d'ontree : ");
+	/* En la deuxieme etap , on va faire l'affctation de la base d'entree et du sortie et le nombre en base d'entree */
+	printf (" Veulliez donner la base d'entree : ");
 	scanf ("  %d ", &bo );
 	printf (" Veulliez donner la valeure de nombre en %d : ", bo );
 	scanf (" %ld ", & nbr_o );
@@ -30,10 +30,10 @@ int main()
 	}
 	printf (" le nombre en dicimal est %d \n ", dic );
 	/* on va faire les opperationts pour transoformer le nombre vers la base de sortie */
-        i = 0 ;
+        a = 1 ;
 	nbr_s = 0 ;
 	while ( dic != 0 ){
-    	c = dic % bs ;
+    	        c = dic % bs ;
 		nbr_s = nbr_s + c * a ;
 		dic = dic / bs ;
 		a = a * 10 ;
